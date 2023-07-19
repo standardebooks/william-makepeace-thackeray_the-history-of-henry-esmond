@@ -39,9 +39,11 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008115249</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A young nobleman of obscure birth sacrifices his own interests to uphold the honor of his patrons’ family.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Henry Esmond is the modest but appealing hero of his own story. Set, for the most part, in the early years of the eighteenth century, Esmond is regarded as a bastard member of his noble family. He gains some ability in arms, exercises his capable brain, and finds that the tumultuous events of those years give him ample opportunity to make his way as a military man. As political intrigues and love interests come in to play, Esmond discovers there is more to his past than his present circumstances would suggest.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The History of Henry Esmond&lt;/i&gt; had a mixed reception. Some, like &lt;a href="https://standardebooks.org/ebooks/george-eliot"&gt;George Eliot&lt;/a&gt;, found a significant plot twist to be “uncomfortable,” and were put off by it. &lt;a href="https://standardebooks.org/ebooks/anthony-trollope"&gt;Anthony Trollope&lt;/a&gt;, on the other hand, admired the work and thought it “the greatest novel in the language”—as, indeed, did Mrs. Trollope, who so wore out her copy with repeated re-readings that it needed to be replaced.&lt;/p&gt;
+			&lt;p&gt;Modern assessments recognize in the novel Thackeray’s fine technical achievement in the effective voice of the first-person narration, and his deft handling of the complex plot which, in the words of one modern literary critic, “won &lt;i&gt;Henry Esmond&lt;/i&gt; the fame of Thackeray’s best executed work.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2511</dc:source>
@@ -58,10 +60,10 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Augustus Leopold Egg</dc:contributor>
+		<meta property="file-as" refines="#artist">Egg, Augustus Leopold</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Augustus_Leopold_Egg</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n87123962</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Donald Lainson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lainson, Donald</meta>
