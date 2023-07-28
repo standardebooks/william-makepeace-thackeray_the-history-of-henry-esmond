@@ -84,6 +84,10 @@ p span.i6{
 #chapter-3-3 blockquote header p:nth-child(2) span{
 	float: right;
 }
+
+#chapter-3-3 blockquote blockquote{
+	clear: right;
+}
 /* end bespoke css */
 
 /* blocklevel lang italics */
