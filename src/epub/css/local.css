@@ -20,6 +20,25 @@ header [epub|type~="epigraph"] cite{
 }
 /* End all epigraphs */
 
+/* Epigraphs in section headers */
+header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* Begin letters */
 [epub|type~="z3998:letter"] header{
 	text-align: right;
@@ -35,7 +54,6 @@ footer{
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -72,6 +90,10 @@ p span.i6{
 
 /* BESPOKE CSS */
 /* for print newspaper mockup header */
+#chapter-3-3 blockquote:first-of-type header + p{
+	margin-top: 3em;
+}
+
 #chapter-3-3 header > p:first-child{
 	font-variant: small-caps;
 	margin: 1em 0;
@@ -85,8 +107,9 @@ p span.i6{
 	float: right;
 }
 
-#chapter-3-3 blockquote blockquote{
-	clear: right;
+#dedication header{
+	font-variant: small-caps;
+	margin-top: 3em;
 }
 /* end bespoke css */
 
