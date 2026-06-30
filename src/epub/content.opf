@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/william-makepeace-thackeray/the-history-of-henry-esmond</dc:identifier>
 		<dc:date>2023-07-31T14:06:11Z</dc:date>
 		<meta property="dcterms:modified">2023-07-31T14:06:11Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -39,7 +40,7 @@
 		<meta property="term" refines="#subject-1">sh85061165</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008115249</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A young nobleman of obscure birth sacrifices his own interests to uphold the honor of his patrons’ family.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Henry Esmond is the modest but appealing hero of his own story. Set, for the most part, in the early years of the eighteenth century, Esmond is regarded as a bastard member of his noble family. He gains some ability in arms, exercises his capable brain, and finds that the tumultuous events of those years give him ample opportunity to make his way as a military man. But as political intrigues and love interests come in to play, Esmond discovers there is more to his past than his present circumstances would suggest.&lt;/p&gt;
@@ -49,34 +50,36 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2511</dc:source>
 		<dc:source>https://archive.org/details/historyofhenryes00thac_0</dc:source>
-		<meta property="se:word-count">188176</meta>
-		<meta property="se:reading-ease.flesch">61.9</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_History_of_Henry_Esmond</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-makepeace-thackeray_the-history-of-henry-esmond</meta>
+		<meta property="schema:wordCount">188176</meta>
+		<meta property="schema:educationalLevel">61.9</meta>
+		<link href="https://en.wikipedia.org/wiki/The_History_of_Henry_Esmond" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/william-makepeace-thackeray_the-history-of-henry-esmond" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">William Makepeace Thackeray</dc:creator>
 		<meta property="file-as" refines="#author">Thackeray, William Makepeace</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/William_Makepeace_Thackeray</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095677</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Makepeace_Thackeray" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78095677.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Augustus Leopold Egg</dc:contributor>
 		<meta property="file-as" refines="#artist">Egg, Augustus Leopold</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Augustus_Leopold_Egg</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n87123962</meta>
+		<link href="https://en.wikipedia.org/wiki/Augustus_Leopold_Egg" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n87123962.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Donald Lainson</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lainson, Donald</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reimer, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://github.com/dajare</meta>
-		<meta property="se:url.authority.nacoaf" refines="#producer-1">http://id.loc.gov/authorities/names/n92075987</meta>
+		<link href="https://github.com/dajare" refines="#producer-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -85,7 +88,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
